@@ -1,0 +1,186 @@
+# CNS Lab Cycle–2: Answers for 10 Marks
+
+## 5. Study the Features of Firewall and Set Firewall Security in Windows
+
+Aim: To study the features of a firewall and configure firewall security in Windows.
+
+Introduction:
+
+A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predefined security rules. Windows Defender Firewall protects a computer from unauthorized network access.
+
+Features of a Firewall:
+
+1. Traffic filtering: Allows or blocks network traffic based on security rules.
+2. Unauthorized access prevention: Prevents unwanted connections to the computer.
+3. Application control: Allows or blocks specific applications from communicating over the network.
+4. Network monitoring: Monitors incoming and outgoing connections.
+5. Profile management: Supports Domain, Private, and Public network profiles.
+6. Logging: Records certain connection events for security analysis.
+
+Procedure to Enable Windows Firewall:
+
+1. Open the Start menu and search for Control Panel.
+2. Select System and Security.
+3. Click Windows Defender Firewall.
+4. Select Turn Windows Defender Firewall on or off.
+5. Enable the firewall for Private and Public network settings.
+6. Click OK to save the settings.
+7. Open Advanced Settings to configure inbound and outbound rules.
+8. Verify that the firewall is enabled.
+
+Result: The features of Windows Defender Firewall were studied, and firewall security was enabled.
+
+## 6. Simulate PGP by Combining Message Encryption, Digital Signing and Compression
+
+Aim: To simulate Pretty Good Privacy (PGP) for secure email communication using encryption, digital signatures, and message compression.
+
+Introduction:
+
+PGP is a security mechanism used to protect electronic messages. It combines symmetric encryption, public-key encryption, digital signatures, and compression to provide confidentiality, authentication, and integrity.
+
+Working Procedure:
+
+1. The sender enters the email message.
+2. The message is compressed to reduce its size.
+3. A hash value of the message is generated.
+4. The sender signs the hash using their private key.
+5. A random symmetric session key is generated.
+6. The compressed message and digital signature are encrypted using the session key.
+7. The session key is encrypted using the receiver's public key.
+8. The encrypted message, encrypted session key, and signature are sent to the receiver.
+9. The receiver decrypts the session key using their private key.
+10. The receiver decrypts and decompresses the message.
+11. The receiver verifies the digital signature using the sender's public key.
+
+Security Services Provided:
+
+- Confidentiality: Encryption prevents unauthorized users from reading the message.
+- Authentication: The digital signature helps verify the sender.
+- Integrity: Signature verification detects modifications to the signed message.
+- Compression: Reduces message size for efficient transmission.
+
+Result: The working of PGP was studied by combining encryption, digital signing, and compression for secure email communication.
+
+## 7. Steps to Ensure Security of a Web Browser (Mozilla Firefox/Google Chrome)
+
+Aim: To study and apply security measures to protect a web browser from online threats.
+
+Introduction:
+
+A web browser is software used to access websites and online services. Browser security protects users from malicious websites, phishing attacks, malware, and unauthorized access to personal information.
+
+Steps to Secure a Web Browser:
+
+1. Update the browser: Install the latest version to fix known security vulnerabilities.
+2. Enable Safe Browsing: Turn on Google Safe Browsing in Chrome or the relevant protection feature in Firefox.
+3. Use HTTPS: Prefer secure HTTPS connections when accessing websites.
+4. Block pop-ups: Block unwanted pop-ups and redirects.
+5. Manage extensions: Remove unknown or unnecessary browser extensions.
+6. Clear browsing data: Delete browsing history, cookies, and cached data when appropriate.
+7. Use strong passwords: Create unique passwords for online accounts.
+8. Enable two-factor authentication: Add another layer of account protection.
+9. Avoid suspicious downloads: Download files only from trusted sources.
+10. Check website permissions: Restrict unnecessary access to the camera, microphone, and location.
+11. Avoid public computer risks: Do not save passwords on shared systems and sign out after use.
+12. Use privacy settings: Block unwanted third-party tracking where supported.
+
+Result: Browser security settings and safe browsing practices were studied to improve protection against online threats.
+
+## 8. Study Different Types of Vulnerabilities in Websites and Web Applications
+
+Aim: To study common security vulnerabilities in websites and web applications and identify preventive measures.
+
+Introduction:
+
+A web application vulnerability is a weakness in an application's design, implementation, or configuration that attackers may exploit to access data or perform unauthorized actions.
+
+Types of Vulnerabilities:
+
+1\. SQL Injection: Occurs when untrusted input is inserted into database queries. Attackers may access or modify database information.
+
+Prevention: Use parameterized queries and validate input.
+
+2\. Cross-Site Scripting (XSS): Allows malicious scripts to execute in a user's browser through an insecure website.
+
+Prevention: Encode output and sanitize untrusted input.
+
+3\. Broken Authentication: Weak passwords or improper login mechanisms may allow attackers to access user accounts.
+
+Prevention: Use strong authentication and multi-factor authentication.
+
+4\. Broken Access Control: Users may access resources or perform actions beyond their permissions.
+
+Prevention: Enforce authorization checks on the server for every sensitive request.
+
+5\. Cross-Site Request Forgery (CSRF): Tricks an authenticated user's browser into sending an unwanted request.
+
+Prevention: Use CSRF tokens and appropriate cookie settings.
+
+6\. Security Misconfiguration: Incorrect server settings, default passwords, or exposed debugging information create security risks.
+
+Prevention: Apply secure configurations and disable unnecessary services.
+
+7\. Sensitive Data Exposure: Personal or confidential information may be exposed due to weak encryption or improper storage.
+
+Prevention: Use HTTPS and protect sensitive data with suitable encryption.
+
+8\. File Upload Vulnerabilities: Improperly validated uploads may allow malicious files to be stored or executed.
+
+Prevention: Restrict file types and sizes, validate content, and store uploads safely.
+
+Importance of Web Application Security:
+
+- Protects user information.
+- Prevents unauthorized access.
+- Maintains data integrity.
+- Reduces the risk of financial loss.
+- Improves user trust and application reliability.
+
+Result: Common web application vulnerabilities and their preventive measures were studied.
+
+## 9. Analysis of Security Vulnerabilities in an Email Application
+
+Aim: To analyze common security vulnerabilities in email applications and study methods to prevent them.
+
+Introduction:
+
+Email applications are widely used for communication and sharing documents. They can be targeted by attackers to steal personal information, distribute malware, or gain unauthorized access to accounts.
+
+Common Email Security Vulnerabilities:
+
+1\. Phishing Attacks: Attackers send fake emails that imitate trusted organizations to steal passwords or financial details.
+
+2\. Email Spoofing: Attackers forge the sender's email address to make a message appear genuine.
+
+3\. Malicious Attachments: Infected attachments may install malware when opened.
+
+4\. Weak Passwords: Easily guessed passwords make email accounts vulnerable to unauthorized access.
+
+5\. Account Takeover: Stolen credentials can allow attackers to read emails and impersonate the account owner.
+
+6\. Spam Emails: Unwanted emails may contain fraudulent offers, suspicious links, or malware.
+
+7\. Data Leakage: Confidential information may be accidentally or intentionally shared with unauthorized recipients.
+
+8\. Unencrypted Communication: Email content may be exposed if appropriate transport or end-to-end protection is absent.
+
+9\. Session Hijacking: Stolen session tokens may allow an attacker to access an account without entering the password again.
+
+10\. Outdated Software: Unpatched email applications and operating systems may contain exploitable security weaknesses.
+
+Security Measures:
+
+1. Use strong and unique passwords.
+2. Enable multi-factor authentication.
+3. Verify the sender's address before responding.
+4. Avoid clicking suspicious links or opening unexpected attachments.
+5. Use spam filters and updated antivirus software.
+6. Keep the email application and operating system updated.
+7. Use secure connections and encryption where appropriate.
+8. Avoid sending sensitive information to unverified recipients.
+9. Sign out of accounts on shared computers.
+10. Report suspicious emails and delete them safely.
+
+Result: Security vulnerabilities in email applications were analyzed, and preventive measures were identified to improve email security.
+
+These answers are structured for 10-mark CNS lab-record or exam questions, with an aim, introduction, main points, procedure or prevention, and result.
