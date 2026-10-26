@@ -1,9 +1,12 @@
-
+import java.util.*;
 
 class DiffieHellman {
     public static void main(String[] args) {
-        int p=23, g=5, a=6, b=15;
-
+        Scanner sc=new Scanner(System.in);
+int p=sc.nextInt();
+int g=sc.nextInt();
+int a=sc.nextInt();
+int b=sc.nextInt();
         int A=(int)Math.pow(g,a)%p;
         int B=(int)Math.pow(g,b)%p;
 
@@ -14,5 +17,6 @@ class DiffieHellman {
         System.out.println("Public B: "+B);
         System.out.println("Key A: "+keyA);
         System.out.println("Key B: "+keyB);
+        sc.close();
     }
 }
